@@ -1,3 +1,4 @@
+// --module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml,javafx.web
 package geekbrains.lesson4;
 
 import javafx.application.Application;
