@@ -6,14 +6,15 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="geekbrains.lesson4.Controller">
-   <children>
-      <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS" />
-      <HBox fx:id="msgPanel">
-         <children>
-            <TextField fx:id="msgField" onAction="#sendMsg" promptText="Написать сообщение..." HBox.hgrow="ALWAYS" />
-            <Button onAction="#sendMsg" text="Отправить" />
-         </children>
-      </HBox>
-   </children>
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="geekbrains.lesson4.Controller">
+    <children>
+        <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS"/>
+        <HBox fx:id="msgPanel">
+            <children>
+                <TextField fx:id="msgField" promptText="Написать сообщение..." HBox.hgrow="ALWAYS"/>
+                <Button fx:id="btnSend" defaultButton="true" onAction="#sendMsg" text="Отправить"/>
+            </children>
+        </HBox>
+    </children>
 </VBox>
