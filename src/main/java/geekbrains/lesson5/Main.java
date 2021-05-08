@@ -1,5 +1,4 @@
 /*
-1. Необходимо написать два метода, которые делают следующее:
 1) Создают одномерный длинный массив, например:
 
 static final int size = 10000000;
@@ -47,7 +46,7 @@ package geekbrains.lesson5;
 import java.util.ArrayList;
 
 public class Main {
-    static final int size = 10000000;
+    static final int SIZE = 10000000;
 
     static float[] arr = new float[size];
 
