@@ -22,7 +22,8 @@ public class EchoClient {
                     str = scanner.nextLine();
                 } catch (NoSuchElementException e) {
                     break;
-                };
+                }
+                ;
                 if (str.equals("/end")) {
                     System.out.println("Server disconnect");
                     break;

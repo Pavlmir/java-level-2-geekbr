@@ -21,8 +21,7 @@ public class KeyListener extends Thread {
             String inputString = "";
             try {
                 inputString = keyScanner.nextLine();
-            }
-            catch (NoSuchElementException e) {
+            } catch (NoSuchElementException e) {
                 e.printStackTrace();
                 break;
             }
