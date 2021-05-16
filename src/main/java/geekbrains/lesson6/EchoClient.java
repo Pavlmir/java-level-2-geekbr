@@ -49,10 +49,10 @@ public class EchoClient {
             }
             ;
             if (str.equals("/end")) {
-                System.out.println("Server disconnect");
+                System.out.println("Сервер отключен");
                 break;
             }
-            System.out.println("Server: " + str);
+            System.out.println("Сервер: " + str);
         }
     }
 }

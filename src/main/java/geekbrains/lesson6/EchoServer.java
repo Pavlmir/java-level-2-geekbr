@@ -14,7 +14,7 @@ public class EchoServer {
              Socket socket = server.accept();
              Scanner scanner = new Scanner(socket.getInputStream());
              PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);) {
-            System.out.println("Client connected");
+            System.out.println("Клиент подключен");
             KeyListener keyListener = new KeyListener(printWriter);
             keyListener.setDaemon(true);
             keyListener.start();
@@ -27,11 +27,11 @@ public class EchoServer {
                 }
                 ;
                 if (str.equals("/end")) {
-                    System.out.println("Client disconnect");
+                    System.out.println("Клиент отключен");
                     keyListener.interrupt();
                     break;
                 }
-                System.out.println("Client: " + str);
+                System.out.println("Клиент: " + str);
             }
         } catch (IOException e) {
             e.printStackTrace();
