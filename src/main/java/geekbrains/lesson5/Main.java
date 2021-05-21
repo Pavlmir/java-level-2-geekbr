@@ -49,11 +49,11 @@ public class Main {
 
     private static void method1() {
         fillArray();
-        long a = System.currentTimeMillis();
+        long start = System.currentTimeMillis();
         for (int i = 0; i < SIZE; i++) {
             arr[i] = (float) (arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
         }
-        System.out.printf("Время работы 1-ого метода = %s мс.\n", System.currentTimeMillis() - a);
+        System.out.printf("Время работы 1-ого метода = %s мс.\n", System.currentTimeMillis() - start);
     }
 
     private static void method2() {
