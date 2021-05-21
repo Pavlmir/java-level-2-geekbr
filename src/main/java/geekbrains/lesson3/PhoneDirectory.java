@@ -13,6 +13,6 @@ public class PhoneDirectory {
     }
 
     public HashSet<String> get(String surname) {
-        return phoneDir.get(surname);
+        return phoneDir.getOrDefault(surname, new HashSet<>());
     }
 }
