@@ -12,7 +12,7 @@ public class EchoClient extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/MainWindow.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/MainWindowChat.fxml"));
 
         primaryStage.setTitle("Чат");
         primaryStage.getIcons().add(new Image(getClass().getResource("/chat_icon.png").toExternalForm()));
