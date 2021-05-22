@@ -1,4 +1,4 @@
-package geekbrains.lesson7;
+package geekbrains.lesson7.server;
 
 import java.util.Optional;
 

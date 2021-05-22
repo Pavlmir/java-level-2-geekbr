@@ -1,4 +1,6 @@
-package geekbrains.lesson7;
+package geekbrains.lesson7.server;
+
+import geekbrains.lesson7.server.AuthService;
 
 import java.util.List;
 import java.util.Optional;

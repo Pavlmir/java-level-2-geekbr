@@ -1,4 +1,9 @@
-package geekbrains.lesson7;
+package geekbrains.lesson7.server;
+
+import geekbrains.lesson7.ChatConstants;
+import geekbrains.lesson7.ClientHandler;
+import geekbrains.lesson7.server.AuthService;
+import geekbrains.lesson7.server.BaseAuthService;
 
 import java.io.IOException;
 import java.net.ServerSocket;

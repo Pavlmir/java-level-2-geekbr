@@ -1,5 +1,7 @@
 package geekbrains.lesson7;
 
+import geekbrains.lesson7.server.MyServer;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -82,7 +84,7 @@ public class ClientHandler {
         }
     }
 
-    public void sendMsg(String message)  {
+    public void sendMsg(String message) {
         try {
             outputStream.writeUTF(message);
         } catch (IOException e) {
