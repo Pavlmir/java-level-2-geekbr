@@ -9,7 +9,7 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.ListView?>
 <VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="geekbrains.lesson7.client.Controller">
+      fx:controller="geekbrains.lesson8.client.Controller">
     <HBox fx:id="upperPanel" managed="true">
         <TextField fx:id="loginField" HBox.hgrow="ALWAYS" promptText="Login"/>
         <PasswordField fx:id="passwordField" HBox.hgrow="ALWAYS"
